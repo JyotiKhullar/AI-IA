@@ -1,0 +1,1 @@
+403 errors after enabling MFA usually point to a few things: Security Mode wasn’t enabled (MFA needs it), the user’s role doesn’t allow MFA, or the TOTP device time is off by more than a couple minutes. Check those and then try the sign-in again.

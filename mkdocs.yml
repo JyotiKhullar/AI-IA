@@ -1,0 +1,32 @@
+site_name: AI + IA + KG Demo
+site_url: https://<your-username>.github.io/ai-ia-kg-demo/
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Baseline (Messy):
+    - Security Suite Overview: baseline/01-security-suite-overview.md
+    - Enable MFA: baseline/02-enable-mfa.md
+    - SSO Setup: baseline/03-sso-setup.md
+    - MFA Troubleshooting: baseline/04-mfa-troubleshooting.md
+    - Roles & Permissions: baseline/05-roles-permissions.md
+  - Structured (Clean IA):
+    - Security Suite Overview: structured/01-security-suite-overview.md
+    - Enable MFA: structured/02-enable-mfa.md
+    - SSO Setup: structured/03-sso-setup.md
+    - MFA Troubleshooting: structured/04-mfa-troubleshooting.md
+    - Roles & Permissions: structured/05-roles-permissions.md
+  - Knowledge Graph:
+    - Edges CSV: kg_edges.csv
+    - Graph Overview: kg_overview.png
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true

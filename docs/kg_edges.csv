@@ -1,0 +1,15 @@
+source,relation,target
+Product:GatewayX,hasFeature,Feature:Security Suite
+Product:GatewayX,hasFeature,Feature:MFA
+Product:GatewayX,hasFeature,Feature:SSO
+Feature:MFA,enablesTask,Task:Enable MFA
+Task:Enable MFA,appliesToRole,Role:Admin
+Task:Enable MFA,requires,Setting:Security Mode
+Feature:SSO,enablesTask,Task:Configure SSO
+Task:Configure SSO,appliesToRole,Role:Admin
+Issue:403,relatedTo,Feature:MFA
+Issue:403,resolvedBy,Doc:04-mfa-troubleshooting.md
+Doc:02-enable-mfa.md,describes,Task:Enable MFA
+Doc:03-sso-setup.md,describes,Task:Configure SSO
+Doc:05-roles-permissions.md,describes,Role:Admin
+Doc:01-security-suite-overview.md,describes,Feature:Security Suite

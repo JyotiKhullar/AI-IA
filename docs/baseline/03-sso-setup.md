@@ -1,0 +1,1 @@
+SSO setup is done by Admins. You need IdP metadata (XML) and a test user at the IdP. In Admin Console under Security → SSO, upload the metadata, map things like email, first_name, last_name, groups, then download SP metadata, finish the configuration on the IdP side, save, and test.

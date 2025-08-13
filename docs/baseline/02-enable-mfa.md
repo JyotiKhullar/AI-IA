@@ -1,0 +1,1 @@
+Admins can enable MFA in the Admin Console. First make sure Security Mode is enabled in Tenant Settings, and you need to be an Admin. Then go to Security → MFA, switch it on, pick factors like TOTP, SMS, or Push, and save. After that, test by having a user sign in and complete MFA. If it fails (403), there’s troubleshooting, and remember roles/permissions affect this.
